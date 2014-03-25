@@ -417,7 +417,8 @@ table.head tr td {
 
 .inner_table {
     width: 1159px;
-    height: 300px;
+    height: 430px;
+    overflow-x:hidden; 
     overflow-y: auto;
     background: #fff;
     color: #000;
