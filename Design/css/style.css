@@ -160,6 +160,7 @@ input, select {
 
 }
 
+
 input[type=text],input[type=password] {
     -webkit-appearance: none;
     display: inline-block;
@@ -216,7 +217,7 @@ input[type=text]:focus,input[type=password]:focus {
     width: 320px;
     height: 40px;
     background-color: #eddb11;
-    border-color: #e9ac1a;
+    border: 1px solid #e9ac1a;
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
@@ -319,10 +320,32 @@ input[type=text]:focus,input[type=password]:focus {
 
 /*User Home*/
 
+.signout-btn {
+    display: inline-block;
+    float: right;
+    margin: 25px 56px 5px 8px;
+    padding: 8px;
+    border-radius: 2px;
+    background-color: #eddb11;
+    border: 1px solid #e9ac1a;
+    font-family: arial;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 700;
+    height: 36px;
+    -webkit-appearance:none;
+}
+
+.signout-btn:hover {
+    border: 1px solid #e9ac1a;
+    background-color: #e9ac1a;
+}
+
+
 nav  {
     display: inline-block;
     float: right;
-    margin: 25px 55px 5px 15px;
+    margin: 25px 6px 5px 15px;
     word-spacing: 10px;
     background: #000;
     padding: 10px;
@@ -366,7 +389,7 @@ nav a,span{
     border: 1px solid #000;
     margin-top: 0px;
     margin-left: 73px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     background: #000;
     opacity: 0.7;
     padding: 10px;
@@ -384,12 +407,64 @@ nav a,span{
 .sear-btn {
     width: 220px;
     height: 30px;
-    }
+
+}
+
+.sear-btn-home {
+    margin-left: 300px;
+}
+
+.sear-btn-search {
+
+}
+
+
+
+input[type=radio] {
+    color: #fff;
+    vertical-align: middle;
+    margin-right: 0px;
+    margin-left: 45px;
+
+}
+
+.radio {
+    color: #fff;
+    word-spacing: 5px;
+    vertical-align: middle;
+    margin-left: -15px;
+    
+
+}
+
+.radio1 {
+   margin-right: -50px;
+}
+
+.radio-block {
+    clear: both;
+    width: 88.75%;
+    border: 1px solid #000;
+    margin-top: 0px;
+    margin-left: 73px;
+    margin-bottom: 3px;
+    background: #000;
+    opacity: 0.7;
+    padding: 5px 10px 15px 10px;
+    padding-right: 5px;
+    word-spacing: 28px;
+    text-align: center;
+    
+}
+
+
+
 /*Table*/
 
 .wrap {
-    width: 1000px;
+    width: 1170px;
     margin-left: 72.5px;
+    border-bottom: 2px solid #000;
 }
 
 .wrap table {
@@ -417,7 +492,7 @@ table.head tr td {
 
 .inner_table {
     width: 1170px;
-    height: 430px;
+    height: 400px;
     overflow-x:hidden; 
     overflow-y: auto;
     background: #fff;
