@@ -287,7 +287,7 @@ input[type=text]:focus,input[type=password]:focus {
 
 .reason li {
     list-style-position: inside;
-    color: #555;
+    color: #472400;
     padding: 5px;
     letter-spacing: 1.2px;
     line-height: 20px;
@@ -297,7 +297,7 @@ input[type=text]:focus,input[type=password]:focus {
 }
 
 .reason h4 {
-    color: #555;
+    color: #472400;
     padding: 5px;
     line-height: 27px;
     font-size: 24px;
@@ -405,13 +405,15 @@ nav a,span{
 }
 
 .sear-btn {
-    width: 220px;
+    width: 90px;
     height: 30px;
+    margin-left: 60px;
+
 
 }
 
 .sear-btn-home {
-    margin-left: 300px;
+    margin-left: 470px;
 }
 
 .sear-btn-search {
@@ -511,7 +513,7 @@ table.head tr td {
 
 
 .postad-box {
-    margin: 200px 280px;
+    margin: 40px 282px;
     clear: both;
     width:800px;
     height:180px;
