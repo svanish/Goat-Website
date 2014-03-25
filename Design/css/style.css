@@ -299,8 +299,8 @@ input[type=text]:focus,input[type=password]:focus {
     color: #555;
     padding: 5px;
     line-height: 27px;
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 700;
     font-family: helvetica;
 
 }/*Search page*/
@@ -366,7 +366,7 @@ nav a,span{
     border: 1px solid #000;
     margin-top: 0px;
     margin-left: 73px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     background: #000;
     opacity: 0.7;
     padding: 10px;
@@ -393,7 +393,7 @@ nav a,span{
 }
 
 .wrap table {
-    width: 1159px;
+    width: 1170px;
     table-layout: fixed;
 }
 
@@ -405,7 +405,7 @@ table tr td {
 }
 
 table.head{
-    width: 1160px;
+    width: 1171px;
     height: 10px;
 }
 table.head tr td {
@@ -416,7 +416,7 @@ table.head tr td {
 }
 
 .inner_table {
-    width: 1159px;
+    width: 1170px;
     height: 430px;
     overflow-x:hidden; 
     overflow-y: auto;
@@ -456,10 +456,12 @@ table.head tr td {
 .buycontainer {
     margin: 80px 400px;
     background-color: #000;
-    opacity:0.7;
+    opacity:0.78;
     height:500px;
     width:550px;
     color: #fff;
+    
+
 }
 
 .buycontainer-head {
@@ -488,6 +490,8 @@ form .breed {
 form .description{
     margin-left:106px;
     width:314px;
+    font-family: arial;
+    font-weight: bold;
 }
 
 form .quantity {
@@ -523,7 +527,7 @@ form .amount {
     width:520px; 
     height:580px;
     background-color: #000;
-    opacity: 0.7;
+    opacity: 0.78;
     margin:80px 400px;
 }
 
