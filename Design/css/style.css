@@ -181,7 +181,14 @@ input[type=text],input[type=password] {
 
 } 
 
-input[type=text]:focus,input[type=password]:focus {
+textarea{
+    -webkit-appearance: none;
+    border: 2px solid #000;
+    border-radius: 2px;
+
+}
+
+input[type=text]:focus,input[type=password]:focus,textarea:focus,select:focus {
     background-color: white;
     border: 2px solid #1ebad6;
 } 
@@ -320,19 +327,38 @@ input[type=text]:focus,input[type=password]:focus {
 
 /*User Home*/
 
-.signout-btn {
-    display: inline-block;
+.user {
     float: right;
     margin: 25px 56px 5px 8px;
-    padding: 8px;
-    border-radius: 2px;
+    width: 180px;
+    height:34px;
+    border: 1px solid #e9ac1a;
+    border-radius: 3px;
+}
+.signout {
     background-color: #eddb11;
+    
+}
+.usr-name{
+    color:#555;
+    float:left;
+    padding-right: 28px;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.signout-btn {
+    width: 40px;
+    background: url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login.png') no-repeat 5px 5px #484b4f;
+    display: inline-block;
+    padding: 6px ;
+    padding-left: 25px;
     border: 1px solid #e9ac1a;
     font-family: arial;
     font-size: 14px;
     cursor: pointer;
-    font-weight: 700;
-    height: 36px;
+    height: 34px;
     -webkit-appearance:none;
 }
 
@@ -405,28 +431,15 @@ nav a,span{
 }
 
 .sear-btn {
-    width: 90px;
-    height: 30px;
-    margin-left: 60px;
+    width: 60px;
+    height: 25px;
+    margin-left: 8px;
 
 
 }
-
-.sear-btn-home {
-    margin-left: 470px;
-}
-
-.sear-btn-search {
-
-}
-
-
-
 input[type=radio] {
     color: #fff;
     vertical-align: middle;
-    margin-right: 0px;
-    margin-left: 45px;
 
 }
 
@@ -434,32 +447,37 @@ input[type=radio] {
     color: #fff;
     word-spacing: 5px;
     vertical-align: middle;
-    margin-left: -15px;
-    
-
-}
-
-.radio1 {
-   margin-right: -50px;
+    margin-left: -20px;
 }
 
 .radio-block {
     clear: both;
-    width: 88.75%;
-    border: 1px solid #000;
-    margin-top: 0px;
-    margin-left: 73px;
-    margin-bottom: 3px;
     background: #000;
     opacity: 0.7;
-    padding: 5px 10px 15px 10px;
-    padding-right: 5px;
-    word-spacing: 28px;
-    text-align: center;
+    margin: 0 73px;
+    width: 90.10%;
+    height:40px;
+    
     
 }
 
+.radio7 {
+    float: left;
+    padding-left: 5px;
+    word-spacing: 28px;
+}
 
+.radio7 .radio2 {
+    margin-left: 50px;
+}
+
+
+.radio7 label {
+    color:inherit;
+}
+ input[type="radio"]:checked + label {
+    color:#1ebad6;
+ }
 
 /*Table*/
 
@@ -566,9 +584,10 @@ form .breed {
 
 form .description{
     margin-left:106px;
-    width:314px;
+    width:308px;
     font-family: arial;
     font-weight: bold;
+    padding-left: 8px;
 }
 
 form .quantity {
