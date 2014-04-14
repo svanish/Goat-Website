@@ -191,10 +191,10 @@ textarea{
 
 }
 
-input[type=text]:focus,input[type=password]:focus,textarea:focus,select:focus {
-    background-color: #DDD;
+input[type=text]:focus,input[type=password]:focus,select:focus {
+    background-color: white;
     border: 1px solid #33CCFF;
-    color: #000;
+    
      
      
 } 
@@ -335,32 +335,26 @@ input[type=text]:focus,input[type=password]:focus,textarea:focus,select:focus {
 
 .user {
     float: right;
-    margin: 25px 56px 5px 0px;
-    width: 180px;
+    margin: 25px -44px 5px 0px;
+    width: 130px;
     height:34px;
     border-radius: 3px;
 }
 
-.usr-name{
-    color:#555;
-    float:left;
-    padding-right: 5px;
-    padding-left: 2px;
-    padding-top: 10px;
-    text-align: center;
-    line-height: 20px;
-    font-family: arial;
-
+.user-name {
+    float: left;
+    margin: 40px 56px 5px 74px;
+    font-size: 20px;
+    color: #472400;
 }
+
 
 .signout-btn {
    
     display: inline-block;
-  
-   vertical-align: middle;
-      padding-top: 5px;
-    cursor: pointer;
-    
+    vertical-align: middle;
+    padding-top: 5px;
+    cursor: pointer;    
     -webkit-appearance:none;
 }
 
@@ -370,7 +364,7 @@ input[type=text]:focus,input[type=password]:focus,textarea:focus,select:focus {
 nav  {
     display: inline-block;
     float: right;
-    margin: 25px 6px 5px 15px;
+    margin: 25px 25px 5px 205px;
     word-spacing: 10px;
     background: #000;
     padding: 10px;
@@ -468,7 +462,7 @@ input[type=radio] {
 }
 
 .radio7 .radio2 {
-    margin-left: 50px;
+    margin-left: 22px;
 }
 
 
@@ -478,6 +472,8 @@ input[type=radio] {
  input[type="radio"]:checked + label {
     color:#1ebad6;
  }
+
+
 
 /*Table*/
 
@@ -570,12 +566,6 @@ table.head tr td {
     height:280px;
 }
 
-.buycontainer-btn {
-    text-align: center;
-    
-
-}
-
 
 
 form .breed {
@@ -609,7 +599,7 @@ form .amount {
 
 .buycontainer-btn{
     margin:40px;
-    margin-left: 125px;
+    margin-left: 203px;
 }
 
 
@@ -673,13 +663,25 @@ form .amount {
 
 .sellcontainer-btn:focus, .sellcontainer-btn{
     text-align: center;
-    margin: 50px 0 0 71px;
+    margin: 50px 0 0 55px;
     border-color: red;
+
 }
 
 .content {
     margin-left: 30px;
 }
+
+.post-btn {
+    width: 100px;
+}
+
+.cancel {
+    width: 100px;
+    margin-right: 5px;
+}
+
+
 
 
 /*Create new account*/
